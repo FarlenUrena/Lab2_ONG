@@ -61,9 +61,6 @@ public class Sede implements Serializable {
     @Temporal(TemporalType.DATE)
     private Date fechaModificacion;
     
-    @Column(name = "ciudad", length = 25)
-    private String ciudad;
-    
     @Column(name = "pais", length = 25)
     private String pais;
     
@@ -81,7 +78,7 @@ public class Sede implements Serializable {
     
     @ManyToOne 
     @JoinColumn(name="ciudades_id")
-    private Ciudad ciudades;
+    private Ciudad ciudad;
 
     @PrePersist
     public void prePersist() {

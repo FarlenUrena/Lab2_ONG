@@ -63,7 +63,7 @@ public class Actuacion implements Serializable {
     
     @ManyToOne 
     @JoinColumn(name="proyectos_id")
-    private Proyecto proyectos;
+    private Proyecto proyecto;
     
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "actuacion") 
     private List<Inversion> inversiones = new ArrayList<>();

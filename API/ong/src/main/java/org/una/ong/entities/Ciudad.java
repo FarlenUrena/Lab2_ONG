@@ -68,7 +68,7 @@ public class Ciudad implements Serializable {
     
     @ManyToOne 
     @JoinColumn(name="paises_id")
-    private Pais paises;
+    private Pais pais;
 
 
     @PrePersist

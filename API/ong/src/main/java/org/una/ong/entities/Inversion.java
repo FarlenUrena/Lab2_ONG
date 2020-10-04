@@ -65,7 +65,7 @@ public class Inversion implements Serializable {
     
     @ManyToOne 
     @JoinColumn(name="actuaciones_id")
-    private Actuacion actuaciones;
+    private Actuacion actuacion;
 
     @PrePersist
     public void prePersist() {

@@ -68,7 +68,7 @@ public class Poblacion implements Serializable {
     
     @ManyToOne 
     @JoinColumn(name="proyectos_id")
-    private Proyecto proyectos;
+    private Proyecto proyecto;
     
     @PrePersist
     public void prePersist() {
