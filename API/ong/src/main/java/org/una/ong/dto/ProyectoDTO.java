@@ -21,7 +21,7 @@ import lombok.ToString;
 @NoArgsConstructor 
 @ToString
 
-public class Proyecto {
+public class ProyectoDTO {
     private Long id;
     private String titulo;
     private Date fechaInicio; 
