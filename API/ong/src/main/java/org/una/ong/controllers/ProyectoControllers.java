@@ -66,6 +66,6 @@ public class ProyectoControllers {
             return new ResponseEntity<>(e, HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
-
+    
 }
 

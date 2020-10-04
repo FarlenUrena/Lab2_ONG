@@ -34,6 +34,6 @@ public class InversionServiceImplementation implements IInversionService{
     public Optional<Inversion> findById(Long id) {
         return inversionRepository.findById(id);
     }
-    
+
     
 }

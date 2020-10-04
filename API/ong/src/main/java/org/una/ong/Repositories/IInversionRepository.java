@@ -12,6 +12,5 @@ import org.una.ong.entities.Inversion;
  *
  * @author farle_000
  */
-public interface IInversionRepository extends JpaRepository<Inversion, Long>{
-    
+public interface IInversionRepository extends JpaRepository<Inversion, Long>{ 
 }
